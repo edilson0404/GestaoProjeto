@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Gestão Projeto - Redirecting...</title>
     <script>
-        // Redireciona para o arquivo principal (V5)
-        window.location.href = './Projeto_Matrix_Energisa_V5.html';
+        // Redireciona para o arquivo principal (V5) com timestamp para evitar cache
+        window.location.href = './Projeto_Matrix_Energisa_V5.html?t=' + new Date().getTime();
     </script>
 </head>
 <body>
     <p>Redirecionando para o projeto...</p>
+    <noscript>
+        <a href="./Projeto_Matrix_Energisa_V5.html">Clique aqui se não for redirecionado automaticamente</a>
+    </noscript>
 </body>
 </html>
