@@ -6,17 +6,16 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta http-equiv="refresh" content="0; url=./Projeto_Matrix_Energisa_V5.2.html?v=2026-10-15">
-    <title>Gestão Projeto - Redirecionando...</title>
+    <title>Gestão de Projetos — Plataforma MATRIX V6.0</title>
     <script>
-        const target = './Projeto_Matrix_Energisa_V5.2.html?v=' + Date.now();
-        window.location.replace(target);
+        // mantém o projeto pedido no endereço (?p=...) ao abrir a plataforma
+        var q = new URLSearchParams(location.search); q.set('v', Date.now());
+        window.location.replace('./Projeto_Matrix_Energisa_V6.0.html?' + q.toString());
     </script>
+    <noscript><meta http-equiv="refresh" content="0; url=./Projeto_Matrix_Energisa_V6.0.html"></noscript>
 </head>
 <body>
-    <p>Redirecionando para a versão 5.2...</p>
-    <noscript>
-        <a href="./Projeto_Matrix_Energisa_V5.2.html">Clique aqui para abrir a versão 5.2</a>
-    </noscript>
+    <p>Abrindo a plataforma de gestão de projetos (V6.0)...</p>
+    <noscript><a href="./Projeto_Matrix_Energisa_V6.0.html">Clique aqui para abrir a plataforma</a></noscript>
 </body>
 </html>
